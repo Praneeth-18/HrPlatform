@@ -9,13 +9,13 @@ Professor:
 
 Students:
 
-# Sri Anudeep Velicheti
+ Sri Anudeep Velicheti
 
-# Sai Praneeth Konuri
+ Sai Praneeth Konuri
 
-# Manikanta Nyanala
+ Manikanta Nyanala
 
-# Mohaimin Iqbal Gazi
+ Mohaimin Iqbal Gazi
 ## Prerequisites:
 
 Before you begin, ensure you have the following prerequisites installed on your system:
