@@ -4,15 +4,18 @@ University Name:[San Jose State University](http://www.sjsu.edu/)
 
 Course: CMPE 272: Enterprise Software Platforms
 
-Professor: [Andrew Bond]
+Professor: 
+# Andrew Bond
 
 Students:
 
-Sri Anudeep Velicheti
-Sai Praneeth Konuri
-Manikanta Nyanala
-Mohaimin Iqbal Gazi
+# Sri Anudeep Velicheti
 
+# Sai Praneeth Konuri
+
+# Manikanta Nyanala
+
+# Mohaimin Iqbal Gazi
 ## Prerequisites:
 
 Before you begin, ensure you have the following prerequisites installed on your system:
