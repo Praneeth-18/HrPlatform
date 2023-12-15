@@ -1,0 +1,21 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - aws --version
+      - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/o4v0e2n3/hrplatform
+      - REPOSITORY_URI=public.ecr.aws/o4v0e2n3/hrplatform
+      
+  build:
+    commands:
+      - docker build -t hrplatform -f Dockerfile .
+      - docker tag hrplatform:latest public.ecr.aws/o4v0e2n3/hrplatform:latest
+  post_build:
+    commands:
+      - docker push public.ecr.aws/o4v0e2n3/hrplatform:latest
+      - echo '[{"name":"'$IMAGE_CONTAINER_NAME'"}]' > imagedefinitions.json
+artifacts:
+  files: 
+      - imagedefinitions.json
+      - appspec.yml
+      - deploy.sh
