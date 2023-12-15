@@ -1,13 +1,14 @@
-# HRPlatform
+# HR Portal
 
 University Name: [San Jose State University](http://www.sjsu.edu/)
 
-Course: CMPE 272: Enterprise Software Platforms
+Course: CMPE 272 - Enterprise Software Platforms
 
-Professor: 
-# Andrew Bond
+### Professor: Andrew Bond
 
-Students:
+### Team: Invictus
+
+Members:
 
  Sri Anudeep Velicheti
 
@@ -16,6 +17,7 @@ Students:
  Manikanta Nyanala
 
  Mohaimin Iqbal Gazi
+ 
 ## Prerequisites:
 
 Before you begin, ensure you have the following prerequisites installed on your system:
@@ -32,7 +34,7 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 Follow these steps to run the project locally:
 
-### 1. Clone the Repository:
+### Steps:
 
 ```bash
 git clone https://github.com/CMPE-272-Team-Invictus/HrPlatform.git
